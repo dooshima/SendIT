@@ -1,0 +1,115 @@
+/* for general styling*/
+body{
+    background-color: #63613e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 0;
+
+}
+h2{
+    text-align: center;
+}
+header{
+    text-align: center;
+}
+/* for NavBar starts */
+#navs{
+    margin-right: 700px;
+
+}
+
+
+li{
+    float: left;
+    font-size: 20px;
+
+}
+.nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 7px 14px;
+    margin: 0px;
+
+}
+li a{
+    text-decoration: none;
+  
+}
+li a:hover{
+    color: crimson;
+}
+
+.bars{
+    margin-left: 200px;
+}
+
+ul{
+    background-color: cornsilk;
+    margin: 0;
+    padding:7px ;
+    overflow: hidden;
+
+}
+/*NavBar ends */
+
+/*Login style */
+fieldset{
+    max-width: 300px;
+    margin-left: 300px;
+}
+
+
+input[type=text], input[type=email],input[type=submit], select{
+    width: 500px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #564b47	;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 8px 0;
+    font-size: 20px;
+}
+
+input[type=submit]{
+    background-color:#f0e9ee	;
+}
+
+input[type=submit]:hover{
+    background-color:#535640;
+}
+
+/* grid view */
+* {
+    box-sizing: border-box;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.row{
+    margin-left: 35px;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+img{
+    height: 300px;
+}
